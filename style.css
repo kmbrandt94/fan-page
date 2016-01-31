@@ -1,0 +1,19 @@
+﻿body {
+    background-color: DimGrey;
+    color: White;
+}
+
+h1 {
+    background-color: Black;
+    color: White;
+}
+
+h2 {
+    background-color: White;
+    color: Black;
+}
+
+#new { color: DarkRed; }
+
+
+.feature { color: FireBrick;}
