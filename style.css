@@ -1,19 +1,45 @@
-﻿body {
+body {
     background-color: DimGrey;
     color: White;
+    text-align: center;
+    font-family: fantasy;
 }
 
 h1 {
     background-color: Black;
     color: White;
+    text-align: center;
+    font-family: sans-serif;
 }
 
 h2 {
     background-color: White;
     color: Black;
+    text-align: center;
+    font-family: sans-serif;
 }
 
-#new { color: DarkRed; }
+#new {
+    color: DarkRed;
+    font-weight: bold;
+}
 
+.feature {
+    color: FireBrick;
+    list-style-type: circle;
+}
 
-.feature { color: FireBrick;}
+.list {
+    text-align: center;
+    list-style-position: inside;
+    list-style-type: lower-roman;
+}
+
+#altpage {
+    font-weight: bold;
+    font-size: large;
+}
+
+#footer {
+    font-size: x-small;
+}

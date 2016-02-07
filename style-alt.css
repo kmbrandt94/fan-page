@@ -1,19 +1,47 @@
-﻿body {
-    background-color: #978E43 ;
-    color: #350608 ;
+body {
+    background-color: #978E43;
+    color: #350608;
+    text-align: center;
+    font-family: sans-serif;
+    background-image: url(texture.jpg);
 }
 
 h1 {
-    background-color:#C73B0B  ;
-    color:#350608 ;
+    background-color: #C73B0B;
+    color: #350608;
+    text-align: center;
+    font-family: fantasy;
 }
 
 h2 {
-    background-color:#350608 ;
-    color:#C73B0B;
+    background-color: #350608;
+    color: #C73B0B;
+    text-align: center;
+    font-family: fantasy;
 }
 
-#new { color:#F2C545; }
+#new {
+    color: #C73B0B;
+    font-weight: bold;
+}
 
+.feature {
+    color: #C73B0B;
+    list-style-type: circle;
+}
 
-.feature { color:#F0E68C ; }
+.list {
+    text-align: center;
+    list-style-position: inside;
+    list-style-type: upper-roman;
+}
+
+#altpage {
+    font-weight: bold;
+    font-size: large;
+}
+
+#footer {
+    font-size: x-small;
+    font-style: italic;
+}
