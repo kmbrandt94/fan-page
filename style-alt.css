@@ -1,23 +1,33 @@
 body {
     background-color: #978E43;
     color: #350608;
-    text-align: center;
-    font-family: sans-serif;
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
     background-image: url(texture.jpg);
+    margin-left: 20px;
+    padding: 5px 15px;
 }
 
 h1 {
     background-color: #C73B0B;
     color: #350608;
-    text-align: center;
-    font-family: fantasy;
+    font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
+    text-shadow: 3px 3px 3px #978E43;
+    background-image: url(icon.jpg);
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 3.5em;
+    padding-left: 150px;
+    padding-top: 10px;
+    border-radius: 10px;
 }
 
 h2 {
     background-color: #350608;
     color: #C73B0B;
-    text-align: center;
-    font-family: fantasy;
+    font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
 }
 
 #new {
@@ -31,7 +41,6 @@ h2 {
 }
 
 .list {
-    text-align: center;
     list-style-position: inside;
     list-style-type: upper-roman;
 }
@@ -42,6 +51,16 @@ h2 {
 }
 
 #footer {
+    text-align: center;
     font-size: x-small;
     font-style: italic;
+}
+
+#border {
+    background-color: white;
+    opacity: 0.6;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
 }

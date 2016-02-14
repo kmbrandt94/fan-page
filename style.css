@@ -1,22 +1,33 @@
 body {
     background-color: DimGrey;
     color: White;
-    text-align: center;
-    font-family: fantasy;
+    font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
+    margin-left: 30px;
+    padding: 5px 10px;
+    text-indent: 50px
 }
 
 h1 {
     background-color: Black;
     color: White;
-    text-align: center;
-    font-family: sans-serif;
+    font-family: Papyrus, fantasy;
+    text-shadow: 5px 5px 5px FireBrick;
+    background-image: url(icon.jpg);
+    background-repeat: no-repeat;
+    height: 75px;
+    width: 700px;
+    font-size: 3em;
+    padding-left: 100px;
+    padding-top: 15px;
+    border-radius: 15px;
 }
 
 h2 {
     background-color: White;
     color: Black;
-    text-align: center;
-    font-family: sans-serif;
+    text-transform: uppercase;
+    font-family: Papyrus, fantasy;
+    background-image: linear-gradient(to bottom, White, DarkRed)
 }
 
 #new {
@@ -30,7 +41,6 @@ h2 {
 }
 
 .list {
-    text-align: center;
     list-style-position: inside;
     list-style-type: lower-roman;
 }
