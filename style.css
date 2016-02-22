@@ -2,7 +2,7 @@ body {
     background-color: DimGrey;
     color: White;
     font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
-    margin-left: 30px;
+    margin-left: 10px;
     padding: 5px 10px;
     text-indent: 50px
 }
@@ -12,14 +12,17 @@ h1 {
     color: White;
     font-family: Papyrus, fantasy;
     text-shadow: 5px 5px 5px FireBrick;
+    text-align: center;
     background-image: url(icon.jpg);
     background-repeat: no-repeat;
     height: 75px;
-    width: 700px;
+    width: auto;
     font-size: 3em;
     padding-left: 100px;
     padding-top: 15px;
-    border-radius: 15px;
+    border-radius: 0px;
+    margin: 0;
+    padding: 10px;
 }
 
 h2 {
@@ -51,5 +54,28 @@ h2 {
 }
 
 #footer {
-    font-size: x-small;
+    font-size: small;
+    text-align: center;
+    font-style: italic;
+    background-color: brown;
+    clear: both;
+}
+
+nav {
+    float: left;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+main {
+    margin-left: 82px;
+    padding: 10px;
+    background-color: black;
+}
+
+#wrapper {
+    width: 80%;
+    margin: auto;
+    background-color: white;
 }
