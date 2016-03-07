@@ -1,14 +1,23 @@
 body {
-    background-color: DimGrey;
+    background-color: dimgray;
+    background-image: url(texture.jpg);
     color: White;
     font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
-    margin-left: 10px;
-    padding: 5px 10px;
     text-indent: 50px
 }
 
+#wrapper {
+    width: 80%;
+    margin: auto;
+    background-image: url(akatosh.jpg);
+    background background-repeat: no-repeat;
+    min-width: 960px;
+    max-width: 2048px;
+    box-shadow: 2px 2px 2px white;
+}
+
 h1 {
-    background-color: Black;
+    background-color: black;
     color: White;
     font-family: Papyrus, fantasy;
     text-shadow: 5px 5px 5px FireBrick;
@@ -23,6 +32,47 @@ h1 {
     border-radius: 0px;
     margin: 0;
     padding: 10px;
+}
+
+nav {
+    float: left;
+    width: auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0px;
+    padding-left: 0px;
+    font-size: 1.2em;
+}
+
+nav a:link {
+    color: red;
+}
+
+nav a:visited {
+    color: firebrick;
+}
+
+nav a:hover {
+    color: white;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+main {
+    background-color: black;
+    margin-left: 200px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    display: block;
 }
 
 h2 {
@@ -45,7 +95,7 @@ h2 {
 
 .list {
     list-style-position: inside;
-    list-style-type: lower-roman;
+    list-style-type: upper-roman;
 }
 
 #altpage {
@@ -59,23 +109,4 @@ h2 {
     font-style: italic;
     background-color: brown;
     clear: both;
-}
-
-nav {
-    float: left;
-    width: auto;
-    text-align: center;
-    text-decoration: none;
-}
-
-main {
-    margin-left: 82px;
-    padding: 10px;
-    background-color: black;
-}
-
-#wrapper {
-    width: 80%;
-    margin: auto;
-    background-color: white;
 }
